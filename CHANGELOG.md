@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/ArrayBuffer.prototype.slice/compare/v1.0.0...v1.0.1) - 2023-07-11
+
+### Commits
+
+- [Fix] node &lt; 0.11 has an own nonconfigurable `slice` property; use it [`554823c`](https://github.com/es-shims/ArrayBuffer.prototype.slice/commit/554823c92ce16d6b7184a7d0ccfe315b663584d7)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `aud`, `es-abstract`, `tape` [`53b0421`](https://github.com/es-shims/ArrayBuffer.prototype.slice/commit/53b04217048c645306597e2cfc55adb69c384146)
+- [Deps] update `define-properties`, `get-intrinsic` [`4966b02`](https://github.com/es-shims/ArrayBuffer.prototype.slice/commit/4966b02bc25ac006709b29ca370b9f6e159f723a)
+
 ## v1.0.0 - 2023-07-09
 
 ### Commits
